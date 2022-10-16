@@ -99,3 +99,28 @@ body {
     display: block;
     height: 3px;
 }
+
+button {
+    height: 50px;
+    width: 55px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000;
+    transition: all 200ms ease;
+    background-color: transparent;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: green;
+    color: #fff;
+}
+
+button#equal {
+    height: 60px;
+    color: #f8fafd;
+    background-color: #0279a8;
+}
