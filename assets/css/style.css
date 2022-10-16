@@ -10,3 +10,39 @@ body {
     font-family: sans-serif;
     background-color: #071115;
 }
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+
+.calculator {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+.calculator.dark {
+    background-color: #071115;
+}
+
+.calculator input {
+    margin: 0 10px;
+    padding-left: 25px;
+    width: auto;
+    max-width: 270px;
+    font-size: 30px;
+    overflow-x: scroll;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    text-align: right;
+    cursor: pointer;
+}
