@@ -46,3 +46,20 @@ body {
     text-align: right;
     cursor: pointer;
 }
+
+.calculator.dark .display {
+    color: #f8fafd;
+}
+
+.calculator.dark button {
+    color: #fff;
+}
+
+.calculator.dark input, .calculator.dark input::placeholder {
+    color: #fff;
+}
+
+.calculator.dark span {
+    color: #fff;
+    background-color: transparent;
+}
